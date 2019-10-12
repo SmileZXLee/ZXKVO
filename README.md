@@ -1,5 +1,7 @@
 # ZXKVO
 # Demo
-[self.msgTf obsKey:@"text" handler:^(id newData, id oldData,id owner) {
+```objective-c
+[self.msgTf zx_obsKey:@"text" handler:^(id newData, id oldData,id owner) {
 
 }];
+```
