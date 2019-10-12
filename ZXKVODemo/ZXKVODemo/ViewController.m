@@ -19,7 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //监听msgTf中text属性的变化
-    [self.msgTf obsKey:@"text" handler:^(id newData, id oldData,id owner) {
+    [self.msgTf zx_obsKey:@"text" handler:^(id newData, id oldData,id owner) {
         //不会循环引用，因此无需处理
         self.msgLabel.text = newData;
     }];
